@@ -1,0 +1,72 @@
+      // <!-- SELECTS 
+        
+      //   <nav key="options">
+      //   <label key="filtrar" className="filtro">
+      //     Filtrar por
+      //   </label>
+      //   <select>
+      //     <option value="selected"> Seleccionar </option>
+      //     <option value="Año de creación"> Creación </option>
+      //   </select>
+      //   </nav>
+      //   <nav key="options">
+      //   <label key="ordenar" className="orden">
+      //     Ordenar por
+      //   </label>
+      //   <select>
+      //     <option value="selected"> Seleccionar </option>
+      //     <option value="Año de creación"> Fama </option>
+      //   </select>
+      // </nav> -->
+
+      // <!-- // getPopularMovies()
+      // .then((data)=>{
+      //     data.json().then((panel)=>{
+      //       console.log(panel)
+      //       setMovies(panel.results)
+  
+      //     })    
+      // }) -->
+
+      //--------------------------------------------------
+
+//       <!-- // App.tsx
+// import { useState, useEffect } from "react"
+// import { getMoviesPanel } from "./movies";
+// import './App.css'
+
+// function App() {
+//   const [movies, setMovies] = useState<any[]>([])
+
+//   useEffect(() => {
+
+//     // getPopularMovies()
+//     getMoviesPanel()
+//       .then((data) => {
+//         console.log(data);
+//         const movieList = data.results || [];
+//         setMovies(movieList)
+//       })
+//       //.catch
+//   }, []);
+
+//   return (
+//     <>
+//       <header>
+//       <img className="appTitle" src="src/assets/Movie World.png" alt="appTitle"/>
+//       </header>
+//       <main className="gridLayout">
+//         {movies.map((movie) => (
+//           <ul key={movie.id} className="posterBox">
+//               <img
+//                 src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`} />
+//             <p className="movTitle">{movie.title}</p>
+//             <p className="releasedYear">{movie.release_date}</p>
+//           </ul>
+//         ))}
+//       </main>
+//     </>
+//   )
+// }
+
+// export default App -->

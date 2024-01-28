@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500');
+
+.cardStyle{
+    width: 205px;
+    height: 400px;
+    background-color: #ffffff3f;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0,2);
+    border-radius: 10px;
+    transition: all 400ms ease;
+    padding: 0px;
+    list-style: none;
+}
+
+.cardStyle:hover{
+    /* box-shadow: 5px 5px 20px rgba(0,0,0,0,5); */
+    box-shadow: 5px 5px 15px rgba(75, 75, 75, 0.562);
+    transform: translateY(-3%);
+}
+
+.movPoster{
+    width: 180px;
+    height: 280px;
+    padding: 12px 0px 0px 0px;
+    margin: 0px;
+}
+
+.movTitle{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    /* font-weight: bold; */
+    font-size: large;
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+.releasedYear{
+    /* color: rgb(224, 224, 224); */
+    color: rgb(51, 49, 49);
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0px 0px 20px 0px;
+}
